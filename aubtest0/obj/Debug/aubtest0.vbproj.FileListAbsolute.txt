@@ -1,0 +1,14 @@
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\bin\Debug\aubtest0.exe.config
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\bin\Debug\aubtest0.exe
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\bin\Debug\aubtest0.pdb
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\bin\Debug\aubtest0.xml
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\bin\Debug\dje-NE\aubtest0.resources.dll
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.vbprojResolveAssemblyReference.cache
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.Form1.resources
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.Resources.resources
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.Form1.dje-NE.resources
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.vbproj.GenerateResource.Cache
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\dje-NE\aubtest0.resources.dll
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.exe
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.xml
+c:\users\user\desktop\bree_test\aubtest0\aubtest0\obj\Debug\aubtest0.pdb

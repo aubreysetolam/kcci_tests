@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCompute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 304</value>
+  </data>
+  <data name="btnCompute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 53</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCompute.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCompute.Text" xml:space="preserve">
+    <value>Compute Order</value>
+  </data>
+  <data name="&gt;&gt;btnCompute.Name" xml:space="preserve">
+    <value>btnCompute</value>
+  </data>
+  <data name="&gt;&gt;btnCompute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCompute.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCompute.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 25.25pt</value>
+  </data>
+  <data name="lblTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 361</value>
+  </data>
+  <data name="lblTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 39</value>
+  </data>
+  <data name="lblTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTotal.Text" xml:space="preserve">
+    <value>P 0.00</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.Name" xml:space="preserve">
+    <value>lblTotal</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.Name" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.Parent" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Name" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Parent" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Name" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Parent" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabsMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 21</value>
+  </data>
+  <data name="tabsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 277</value>
+  </data>
+  <data name="tabsMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabsMain.Name" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;tabsMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabsMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabsMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chlSea.Name" xml:space="preserve">
+    <value>chlSea</value>
+  </data>
+  <data name="&gt;&gt;chlSea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlSea.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlSea.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.Name" xml:space="preserve">
+    <value>chlChicken</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.Name" xml:space="preserve">
+    <value>chlBeef</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chlPork.Name" xml:space="preserve">
+    <value>chlPork</value>
+  </data>
+  <data name="&gt;&gt;chlPork.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlPork.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlPork.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabCourse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabCourse.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabCourse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 251</value>
+  </data>
+  <data name="tabCourse.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabCourse.Text" xml:space="preserve">
+    <value>Main Viand</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.Name" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.Parent" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;tabCourse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 152</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Sea Food</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 17</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Chicken</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 152</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Beef</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Pork</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chlSea.Items" xml:space="preserve">
+    <value>Inihaw na Bangus</value>
+  </data>
+  <data name="chlSea.Items1" xml:space="preserve">
+    <value>Sweet and Sour Tilapia</value>
+  </data>
+  <data name="chlSea.Items2" xml:space="preserve">
+    <value>Tuna Sashimi</value>
+  </data>
+  <data name="chlSea.Items3" xml:space="preserve">
+    <value>Squid Rings</value>
+  </data>
+  <data name="chlSea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 168</value>
+  </data>
+  <data name="chlSea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 64</value>
+  </data>
+  <data name="chlSea.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chlSea.Name" xml:space="preserve">
+    <value>chlSea</value>
+  </data>
+  <data name="&gt;&gt;chlSea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlSea.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlSea.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chlChicken.Items" xml:space="preserve">
+    <value>Fried Chicken (plain)</value>
+  </data>
+  <data name="chlChicken.Items1" xml:space="preserve">
+    <value>Fried Chicken (w/Batter and  Breading)</value>
+  </data>
+  <data name="chlChicken.Items2" xml:space="preserve">
+    <value>Afritada</value>
+  </data>
+  <data name="chlChicken.Items3" xml:space="preserve">
+    <value>Curry</value>
+  </data>
+  <data name="chlChicken.Items4" xml:space="preserve">
+    <value>Inasal</value>
+  </data>
+  <data name="chlChicken.Items5" xml:space="preserve">
+    <value>Buffalo Wings</value>
+  </data>
+  <data name="chlChicken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 33</value>
+  </data>
+  <data name="chlChicken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 94</value>
+  </data>
+  <data name="chlChicken.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.Name" xml:space="preserve">
+    <value>chlChicken</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlChicken.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chlBeef.Items" xml:space="preserve">
+    <value>Beef Kaldereta</value>
+  </data>
+  <data name="chlBeef.Items1" xml:space="preserve">
+    <value>Pares</value>
+  </data>
+  <data name="chlBeef.Items2" xml:space="preserve">
+    <value>Kare Kare</value>
+  </data>
+  <data name="chlBeef.Items3" xml:space="preserve">
+    <value>Nilagang Baka</value>
+  </data>
+  <data name="chlBeef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 168</value>
+  </data>
+  <data name="chlBeef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 64</value>
+  </data>
+  <data name="chlBeef.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.Name" xml:space="preserve">
+    <value>chlBeef</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlBeef.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chlPork.Items" xml:space="preserve">
+    <value>Mechado</value>
+  </data>
+  <data name="chlPork.Items1" xml:space="preserve">
+    <value>Menudo</value>
+  </data>
+  <data name="chlPork.Items2" xml:space="preserve">
+    <value>Crispy Pata</value>
+  </data>
+  <data name="chlPork.Items3" xml:space="preserve">
+    <value>Inihaw na Liempo</value>
+  </data>
+  <data name="chlPork.Items4" xml:space="preserve">
+    <value>Dinakdakan</value>
+  </data>
+  <data name="chlPork.Items5" xml:space="preserve">
+    <value>Bistek Tagalog</value>
+  </data>
+  <data name="chlPork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 33</value>
+  </data>
+  <data name="chlPork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 94</value>
+  </data>
+  <data name="chlPork.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chlPork.Name" xml:space="preserve">
+    <value>chlPork</value>
+  </data>
+  <data name="&gt;&gt;chlPork.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlPork.Parent" xml:space="preserve">
+    <value>tabCourse</value>
+  </data>
+  <data name="&gt;&gt;chlPork.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.Name" xml:space="preserve">
+    <value>chlDessert</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.Name" xml:space="preserve">
+    <value>CheckedListBox2</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.Name" xml:space="preserve">
+    <value>chlMerienda</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 251</value>
+  </data>
+  <data name="TabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TabPage2.Text" xml:space="preserve">
+    <value>Merienda/Desserts</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Name" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Parent" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chlDessert.Items" xml:space="preserve">
+    <value>Cupcake</value>
+  </data>
+  <data name="chlDessert.Items1" xml:space="preserve">
+    <value>Donut</value>
+  </data>
+  <data name="chlDessert.Items2" xml:space="preserve">
+    <value>Eclair</value>
+  </data>
+  <data name="chlDessert.Items3" xml:space="preserve">
+    <value>Froyo</value>
+  </data>
+  <data name="chlDessert.Items4" xml:space="preserve">
+    <value>Gingerbread</value>
+  </data>
+  <data name="chlDessert.Items5" xml:space="preserve">
+    <value>Honeycomb</value>
+  </data>
+  <data name="chlDessert.Items6" xml:space="preserve">
+    <value>Ice Cream Sandwich</value>
+  </data>
+  <data name="chlDessert.Items7" xml:space="preserve">
+    <value>Jelly Bean</value>
+  </data>
+  <data name="chlDessert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 43</value>
+  </data>
+  <data name="chlDessert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 139</value>
+  </data>
+  <data name="chlDessert.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.Name" xml:space="preserve">
+    <value>chlDessert</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;chlDessert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckedListBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 71</value>
+  </data>
+  <data name="CheckedListBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 4</value>
+  </data>
+  <data name="CheckedListBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.Name" xml:space="preserve">
+    <value>CheckedListBox2</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chlMerienda.Items" xml:space="preserve">
+    <value>Turon</value>
+  </data>
+  <data name="chlMerienda.Items1" xml:space="preserve">
+    <value>Ginataang Bilo Bilo</value>
+  </data>
+  <data name="chlMerienda.Items2" xml:space="preserve">
+    <value>Ginataang Mais</value>
+  </data>
+  <data name="chlMerienda.Items3" xml:space="preserve">
+    <value>Champorado</value>
+  </data>
+  <data name="chlMerienda.Items4" xml:space="preserve">
+    <value>Palitaw</value>
+  </data>
+  <data name="chlMerienda.Items5" xml:space="preserve">
+    <value>Puto</value>
+  </data>
+  <data name="chlMerienda.Items6" xml:space="preserve">
+    <value>Kutsinta</value>
+  </data>
+  <data name="chlMerienda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 43</value>
+  </data>
+  <data name="chlMerienda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 109</value>
+  </data>
+  <data name="chlMerienda.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.Name" xml:space="preserve">
+    <value>chlMerienda</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;chlMerienda.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.Name" xml:space="preserve">
+    <value>CheckedListBox3</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.Name" xml:space="preserve">
+    <value>CheckedListBox1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.Name" xml:space="preserve">
+    <value>chlDrinks</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 251</value>
+  </data>
+  <data name="TabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>Drinks</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Name" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Parent" xml:space="preserve">
+    <value>tabsMain</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CheckedListBox3.Items" xml:space="preserve">
+    <value>Pepsi</value>
+  </data>
+  <data name="CheckedListBox3.Items1" xml:space="preserve">
+    <value>Mirinda</value>
+  </data>
+  <data name="CheckedListBox3.Items2" xml:space="preserve">
+    <value>7UP</value>
+  </data>
+  <data name="CheckedListBox3.Items3" xml:space="preserve">
+    <value>Mountain Dew</value>
+  </data>
+  <data name="CheckedListBox3.Items4" xml:space="preserve">
+    <value>Tropicana Twister</value>
+  </data>
+  <data name="CheckedListBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 141</value>
+  </data>
+  <data name="CheckedListBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 79</value>
+  </data>
+  <data name="CheckedListBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.Name" xml:space="preserve">
+    <value>CheckedListBox3</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckedListBox1.Items" xml:space="preserve">
+    <value>Coke</value>
+  </data>
+  <data name="CheckedListBox1.Items1" xml:space="preserve">
+    <value>Royal</value>
+  </data>
+  <data name="CheckedListBox1.Items2" xml:space="preserve">
+    <value>Sprite</value>
+  </data>
+  <data name="CheckedListBox1.Items3" xml:space="preserve">
+    <value>Sparkle</value>
+  </data>
+  <data name="CheckedListBox1.Items4" xml:space="preserve">
+    <value>Minute Made Apple</value>
+  </data>
+  <data name="CheckedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 141</value>
+  </data>
+  <data name="CheckedListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 79</value>
+  </data>
+  <data name="CheckedListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.Name" xml:space="preserve">
+    <value>CheckedListBox1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;CheckedListBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chlDrinks.Items" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="chlDrinks.Items1" xml:space="preserve">
+    <value>Bottled Water</value>
+  </data>
+  <data name="chlDrinks.Items2" xml:space="preserve">
+    <value>Tea</value>
+  </data>
+  <data name="chlDrinks.Items3" xml:space="preserve">
+    <value>Coffee</value>
+  </data>
+  <data name="chlDrinks.Items4" xml:space="preserve">
+    <value>Hot Choco</value>
+  </data>
+  <data name="chlDrinks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="chlDrinks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 79</value>
+  </data>
+  <data name="chlDrinks.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.Name" xml:space="preserve">
+    <value>chlDrinks</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;chlDrinks.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 321</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>How many PAX?</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtPAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 317</value>
+  </data>
+  <data name="txtPAX.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtPAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="txtPAX.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtPAX.Name" xml:space="preserve">
+    <value>txtPAX</value>
+  </data>
+  <data name="&gt;&gt;txtPAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPAX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtPAX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>723, 427</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Food Ordering System</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
